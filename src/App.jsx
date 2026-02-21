@@ -1,7 +1,7 @@
 import React from "react";
 import LandingPage from "./components/Main/component/LandingPage";
 import usePersistScreenshotBlackout from "./components/Main/component/PreventScreenshot";
-// screen blur show
+// screen blur 
 const App = () => {
   usePersistScreenshotBlackout();
   return (
